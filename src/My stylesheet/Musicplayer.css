@@ -1,0 +1,26 @@
+body{
+    background-color: #5F7173;
+}
+.container-musicplayer{
+background-color: aliceblue;
+border-radius: 0.5%;
+width: 600px;
+height: 800px;
+}
+img{
+    border-radius: 5%;
+    width: 500px;
+    height: auto;
+}
+.track-name{
+
+}
+.artist-name{
+
+}
+.audio-controls{
+
+}
+.lyrics{
+    
+}
