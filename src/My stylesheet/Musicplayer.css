@@ -1,26 +1,31 @@
-body{
-    background-color: #5F7173;
-}
-.container-musicplayer{
-background-color: aliceblue;
-border-radius: 0.5%;
-width: 600px;
-height: 800px;
-}
-img{
-    border-radius: 5%;
-    width: 500px;
-    height: auto;
-}
-.track-name{
+body {
+  background-color: #5f7173;
 
 }
-.artist-name{
-
+.container-musicplayer {
+  background-color: aliceblue;
+  align-items: center;
+  border-radius: 5%;
+  width: 600px;
+  height: 100%;
 }
-.audio-controls{
-
+img {
+  border-radius: 5%;
+  width: 500px;
+  height: auto;
+  margin-top: 1.5cm;
 }
-.lyrics{
-    
+.track-name {
+}
+.artist-name {
+}
+.audio-controls {
+    align-content: center;
+    margin-top: -.8cm;
+}
+.lyrics {
+}
+
+.buttonlyrics {
+  margin-top: 1cm;
 }
