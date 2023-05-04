@@ -3,7 +3,10 @@ body {
 }
 .container-musicplayer {
   background-color: aliceblue;
+  position: relative;
+  display: inline-block;
   align-items: center;
+  margin-top: 1.5cm;
   border-radius: 5%;
   width: 600px;
   height: 100%;
@@ -15,29 +18,29 @@ img {
   margin-top: 1.5cm;
 }
 .track-name {
+  margin-bottom: -0.3cm;
 }
 .artist-name {
 }
 
-.progressbar{
-    width: 50%;
-    height: 5px;
-    background-color: black;
-    align-self: center;    
-
+.progressbar {
+  width: 70%;
+  height: 5px;
+  background-color: black;
+  display: inline-block;
+  position: relative;
 }
 
 .audio-controls {
   align-content: center;
-  margin-top: -0.8cm;
+  margin-top: -0.5cm;
 }
 
 .button {
   background: none;
   border: none;
   margin-top: 1cm;
-  margin-inline: .7cm;
-
+  margin-inline: 0.7cm;
 }
 
 .lyrics {
