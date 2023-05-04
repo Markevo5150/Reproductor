@@ -17,9 +17,9 @@ function Musicplayer() {
       <p className="artist-name">Nirvana</p>
 
       <div className="audio-controls">
-        <AiFillFastBackward size="2rem" className="buttonlyrics" />
-        <BsFillPlayFill size="2rem" className="buttonlyrics" />
-        <AiOutlineFastForward size="2rem" className="buttonlyrics" />
+        <button className="button"><AiFillFastBackward size="2rem"  /></button>
+        <button className="button"><BsFillPlayFill size="2rem"  /></button>
+        <button className="button"><AiOutlineFastForward size="2rem"  /></button>
       </div>
 
       <div className="lyrics">Lyrics</div>

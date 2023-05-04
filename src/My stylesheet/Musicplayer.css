@@ -1,6 +1,5 @@
 body {
   background-color: #5f7173;
-
 }
 .container-musicplayer {
   background-color: aliceblue;
@@ -20,10 +19,21 @@ img {
 .artist-name {
 }
 .audio-controls {
-    align-content: center;
-    margin-top: -.8cm;
+  align-content: center;
+  margin-top: -0.8cm;
 }
+
+.button {
+  background: none;
+  border: none;
+  margin-top: 1cm;
+  margin-inline: .7cm;
+
+}
+
 .lyrics {
+  margin-top: 1cm;
+  margin-bottom: -0.8cm;
 }
 
 .buttonlyrics {
