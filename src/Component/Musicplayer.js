@@ -16,10 +16,18 @@ function Musicplayer() {
       <p className="track-name">Come as you are</p>
       <p className="artist-name">Nirvana</p>
 
+      <div className="progressbar" role="progressbar"></div>
+
       <div className="audio-controls">
-        <button className="button"><AiFillFastBackward size="2rem"  /></button>
-        <button className="button"><BsFillPlayFill size="2rem"  /></button>
-        <button className="button"><AiOutlineFastForward size="2rem"  /></button>
+        <button className="button">
+          <AiFillFastBackward size="2rem" />
+        </button>
+        <button className="button">
+          <BsFillPlayFill size="2rem" />
+        </button>
+        <button className="button">
+          <AiOutlineFastForward size="2rem" />
+        </button>
       </div>
 
       <div className="lyrics">Lyrics</div>

@@ -18,6 +18,15 @@ img {
 }
 .artist-name {
 }
+
+.progressbar{
+    width: 50%;
+    height: 5px;
+    background-color: black;
+    align-self: center;    
+
+}
+
 .audio-controls {
   align-content: center;
   margin-top: -0.8cm;
