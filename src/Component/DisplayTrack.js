@@ -1,4 +1,4 @@
 const DisplayTrack = () => {
-    return <div> <audio controls></audio> </div>;
+    return <div>Song information</div>;
   };
   export default DisplayTrack;
