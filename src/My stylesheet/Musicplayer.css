@@ -7,7 +7,7 @@ body {
   display: inline-block;
   align-items: center;
   margin-top: 1.5cm;
-  border-radius: 5%;
+  border-radius: 0.1%;
   width: 600px;
   height: 100%;
 }

@@ -1,13 +1,15 @@
-{/*Audio files*/}
-import caya from './Come as you are.m4a';
-{/*Album cover */}
-import albumCover from './albumcover-Come as you are.jpg'
+// audio files
+import nirvana from './Come as you are.m4a';
+
+// audio thumbnails
+import nevermind from './albumcover-Come as you are.jpg';
 
 export const tracks = [
-    {
-        title: 'Come as you are',
-        src: caya,
-        author: 'Nirvana',
-        thumbnail: albumCover,
-    }
+  {
+    title: 'Nirvana-Come as you are',
+    src: nirvana,
+    author: 'Nirvana',
+    thumbnail: nevermind,
+  },
+  // ...
 ];
