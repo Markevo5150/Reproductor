@@ -8,6 +8,7 @@ const Controls = () => {
     <div className="buttons">
         <button></button>
         <button></button>
+        <button></button>
     </div>
   );
 };
