@@ -1,11 +1,8 @@
 import React from "react";
-
-
 import "../My stylesheet/Musicplayer.css";
-
 import { useState } from 'react';
 import { tracks } from '../data/tracks';
-
+//Componentes//
 import DisplayTrack from "./DisplayTrack";
 import ProgressBar from "./ProgressBar";
 import Controls from "./Controls";
