@@ -1,4 +1,6 @@
+import "../My stylesheet/Musicplayer.css"
+
 const Lyrics = () => {
-    return <div>Letra de las canciones</div>;
+    return <div>Lyrics</div>;
   };
   export default Lyrics;

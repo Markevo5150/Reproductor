@@ -1,4 +1,8 @@
+import "../My stylesheet/Musicplayer.css"
+
 const ProgressBar = () => {
-    return <div>Progress bar</div>;
-  };
+    return <div className="progressbar">
+            <input type="range"/>
+           </div>;
+             };
   export default ProgressBar
