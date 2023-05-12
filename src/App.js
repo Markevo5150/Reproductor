@@ -1,6 +1,7 @@
 
 import './App.css';
 import Musicplayer from './Component/Musicplayer';
+import "../src/My stylesheet/Musicplayer.css"
 
 
 
