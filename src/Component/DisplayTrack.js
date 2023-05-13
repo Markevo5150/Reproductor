@@ -5,6 +5,7 @@ const DisplayTrack = ({ currentTrack, audioRef }) => {
   return (
     <div>
       <audio src={currentTrack.src} ref={audioRef} />
+      
       <div className="audio-info">
         <div className="audio-image">
           {currentTrack.thumbnail ? (

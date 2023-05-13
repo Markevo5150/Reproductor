@@ -10,6 +10,16 @@ const Controls = ({ audioRef }) => {
     setIsPlaying(prev => !prev);
   };
 
+  useEffect ( () =>{
+    if (isPlaying) {
+      audioRef . current.play();
+    } else {
+      audioRef . current.pause();
+    }
+  }, [isPlaying, audioRef]
+
+  )
+
   return (
     <div>
       <button className="button">
