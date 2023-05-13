@@ -17,37 +17,16 @@ img {
   height: auto;
   margin-top: 1.5cm;
 }
-.track-name {
-  margin-bottom: -0.3cm;
-}
-.artist-name {
-}
 
-.progressbar {
-  width: 70%;
-  height: 5px;
-  background-color: black;
-  display: inline-block;
-  position: relative;
-}
 
-.audio-controls {
-  align-content: center;
-  margin-top: -0.5cm;
-}
 
 .button {
   background: none;
   border: none;
   margin-top: 1cm;
-  margin-inline: 0.7cm;
+  margin-inline: 25px;
 }
 
-.lyrics {
-  margin-top: 1cm;
-  margin-bottom: -0.8cm;
-}
-
-.buttonlyrics {
-  margin-top: 1cm;
+.icon{
+size: 210px;
 }

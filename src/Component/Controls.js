@@ -1,11 +1,7 @@
 import "../My stylesheet/Musicplayer.css"
-import {
-  IoPlaySkipBackSharp,
-  IoPlaySkipForwardSharp,
-  IoPlaySharp,
-  IoPauseSharp,
-} from 'react-icons/io5';
+import { Icon } from "./icon";
 import { useEffect, useRef, useState } from 'react';
+import { faBackwardStep, faCirclePause, faCirclePlay, faForwardStep } from "@fortawesome/free-solid-svg-icons";
 
 const Controls = ({ audioRef }) => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -16,11 +12,17 @@ const Controls = ({ audioRef }) => {
 
   return (
     <div>
-      <button className="buttons"><IoPlaySkipBackSharp /></button>
-      <button className="buttonsPlay" onClick={togglePlayPause}>
-        {isPlaying ? <IoPauseSharp /> : <IoPlaySharp />}
+      <button className="button">
+        <Icon css='icon' icon={faBackwardStep} />    
       </button>
-      <button className="buttons"><IoPlaySkipForwardSharp /></button>
+      <button className="button" onClick={togglePlayPause}>
+        {isPlaying ? 
+        <Icon css='icon' icon={faCirclePause} /> : <Icon css='icon' icon={faCirclePlay} />
+        }
+      </button>
+      <button className="button">
+        <Icon css='icon' icon={faForwardStep} />
+      </button>
     </div>
   );
 };

@@ -2,12 +2,12 @@ import React from "react";
 import "../My stylesheet/Musicplayer.css";
 import { useState } from 'react';
 import { tracks } from '../data/tracks';
-import { useRef } from 'react';
 //Componentes//
 import DisplayTrack from "./DisplayTrack";
 import ProgressBar from "./ProgressBar";
 import Controls from "./Controls";
 import Lyrics from "./Lyrics";
+
 
 function Musicplayer() {
   const [currentTrack, setCurrentTrack] = useState (tracks[0]);
