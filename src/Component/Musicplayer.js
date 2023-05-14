@@ -18,27 +18,24 @@ const Musicplayer = () =>{
     return (
       <div className="container-musicplayer">
         <div className="inner">
-
-      <DisplayTrack
-        currentTrack={ currentTrack }
-        audioRef={ audioRef }
-        setDuration={ setDuration }
-        progressBarRef={ progressBarRef }
-      />
-      <Controls
-          audioRef={ audioRef }
-          progressBarRef={ progressBarRef }
-          duration={ duration }
-          setTimeProgress={ setTimeProgress }
-      />
-      
-      <ProgressBar 
-          progressBarRef={ progressBarRef }
-          audioRef={ audioRef }
-          timeProgress={ timeProgress }
-          duration={ duration }
-      />
-          
+          <DisplayTrack
+            currentTrack={ currentTrack }
+            audioRef={ audioRef }
+            setDuration={ setDuration }
+            progressBarRef={ progressBarRef }
+          />
+          <Controls
+            audioRef={ audioRef }
+            progressBarRef={ progressBarRef }
+            duration={ duration }
+            setTimeProgress={ setTimeProgress }
+          />
+          <ProgressBar 
+            progressBarRef={ progressBarRef }
+            audioRef={ audioRef }
+            timeProgress={ timeProgress }
+            duration={ duration }
+          />
         </div>
       </div>
     );
