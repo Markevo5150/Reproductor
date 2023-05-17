@@ -1,9 +1,9 @@
 import "../My stylesheet/Musicplayer.css"
 import { BsMusicNoteBeamed } from 'react-icons/bs';
 
-const DisplayTrack = ({ currentTrack, audioRef, setDuration, progressBarRef,}) => {
+const DisplayTrack = ({ currentTrack, audioRef, setDuration, progressBarRef }) => {
   const onLoadedMetadata = () => {
-  const seconds = audioRef.current.duration;
+    const seconds = audioRef.current.duration;
     setDuration(seconds);
     progressBarRef.current.max = seconds;
   };
@@ -35,4 +35,5 @@ const DisplayTrack = ({ currentTrack, audioRef, setDuration, progressBarRef,}) =
     </div>
   );
 };
+
 export default DisplayTrack;
