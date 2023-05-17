@@ -12,20 +12,11 @@ body {
   height: 100%;
 }
 img {
-  border-radius: 5%;
+  border-radius: 50%;
   width: 500px;
   height: auto;
   margin-top: 1.5cm;
 }
 
-.button {
-  background: none;
-  border: none;
-  margin-top: 1cm;
-  margin-inline: 25px;
-}
 
-.icon{
-size: 210px;
-}
 
