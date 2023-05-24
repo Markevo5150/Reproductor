@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import Musicplayer from './Component/Musicplayer';
+import AudioPlayer from './components/AudioPlayer';
 
-
+import './styles/index.css';
+import './styles/customize-progress-bar.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <AudioPlayer />
   </React.StrictMode>
 );
-
