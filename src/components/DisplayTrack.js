@@ -2,28 +2,28 @@ import { useState } from "react";
 import { Icon } from "../Icon";
 import { icon } from "@fortawesome/fontawesome-svg-core";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
+import { style } from "../styles/index.css";
 
 //Awesome Icons//
 
-
-const DisplayTrack = ({ 
-    currentTrack, 
-    audioRef,
-    setDuration,
-    progressBarRef,
+const DisplayTrack = ({
+  currentTrack,
+  audioRef,
+  setDuration,
+  progressBarRef,
 }) => {
-    const onLoadedMetadata = () => {
-        const seconds = audioRef.current.duration;
-        setDuration(seconds);
-        progressBarRef.current.max = seconds;
-      };
+  const onLoadedMetadata = () => {
+    const seconds = audioRef.current.duration;
+    setDuration(seconds);
+    progressBarRef.current.max = seconds;
+  };
 
-    return (
-<div>
-      <audio 
-      src={currentTrack.src} 
-      ref={audioRef}
-      onLoadedMetadata={onLoadedMetadata}
+  return (
+    <div className="picture">
+      <audio
+        src={currentTrack.src}
+        ref={audioRef}
+        onLoadedMetadata={onLoadedMetadata}
       />
       <div className="audio-info">
         <div className="audio-image">
@@ -32,7 +32,7 @@ const DisplayTrack = ({
           ) : (
             <div className="icon-wrapper">
               <span className="audio-icon">
-              <Icon  css={icon} icon={faMusic}/>
+                <Icon css={icon} icon={faMusic} />
               </span>
             </div>
           )}
@@ -43,6 +43,6 @@ const DisplayTrack = ({
         </div>
       </div>
     </div>
-    );
-  };
-  export default DisplayTrack;
+  );
+};
+export default DisplayTrack;
