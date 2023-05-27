@@ -1,11 +1,12 @@
-import { useRef, useState } from 'react';
+import { useRef, useState } from "react";
 
-import { tracks } from '../data/tracks';
+import { tracks } from "../data/tracks";
+import {} from "../styles/index.css";
 
 //Components//
-import DisplayTrack from './DisplayTrack';
-import Controls from './Controls';
-import ProgressBar from './ProgressBar';
+import DisplayTrack from "./DisplayTrack";
+import Controls from "./Controls";
+import ProgressBar from "./ProgressBar";
 
 /////////////////////////////////////
 
@@ -21,6 +22,8 @@ const AudioPlayer = () => {
   return (
     <div className="audio-player">
       <div className="inner">
+        <div className="circle"></div>
+
         <DisplayTrack
           currentTrack={currentTrack}
           audioRef={audioRef}
